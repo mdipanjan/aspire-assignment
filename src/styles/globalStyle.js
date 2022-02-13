@@ -2,7 +2,7 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
-import {StyleSheet, Dimensions} from 'react-native';
+import {StyleSheet} from 'react-native';
 import { theme } from '../constants/theme';
 export default StyleSheet.create({
   container:{
@@ -16,15 +16,6 @@ export default StyleSheet.create({
     alignSelf:'center',
     alignItems:'center',
     borderRadius:wp(7),
-    // shadowColor: "#000",
-    // shadowOffset: {
-    //   width: 0,
-    //   height: 1,
-    // },
-    // shadowOpacity: 0.20,
-    // shadowRadius: 1.41,
-
-    // elevation: 2,
   },
   btnSaveText:{
     color:theme.THEME_WHITE_COLOR,

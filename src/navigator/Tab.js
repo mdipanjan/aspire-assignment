@@ -1,9 +1,7 @@
-import React, {Component} from 'react';
-import {Image} from 'react-native';
+import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import DebitCard from '../screens/DebitCard';
 import Profile from '../screens/Profile';
-import Stack from './Stack';
 
 import Home from '../assets/images/icons/Home.svg';
 import LogoIcon from '../assets/images/logo/Logo.svg';
@@ -11,7 +9,6 @@ import CreditLogo from '../assets/images/icons/Credit.svg';
 import Payments from '../assets/images/icons/Payments.svg';
 import ProfileLogo from '../assets/images/icons/user.svg';
 import CardLogo from '../assets/images/icons/Card.svg';
-import Payment from '../screens/Payment';
 import Credit from '../screens/Credit';
 import { theme } from '../constants/theme';
 const Tab = createBottomTabNavigator();

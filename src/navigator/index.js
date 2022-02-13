@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import TabNavigator from './Tab';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';

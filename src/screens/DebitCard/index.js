@@ -4,7 +4,6 @@ import Header from '../../components/Header';
 import BottomView from '../../components/BottomView';
 import globalStyle from '../../styles/globalStyle';
 import styles from './styles';
-import { heightPercentageToDP, widthPercentageToDP } from 'react-native-responsive-screen';
 import { theme, font } from '../../constants/theme';
 import IconSee from '../../assets/images/icons/see.svg'
 import InsightIcon from '../../assets/images/icons/insight.svg'
@@ -129,7 +128,7 @@ function DebitCard({navigation}) {
           </View>
         </View>
         <View>
-          <View style={[styles.debitInfos, {marginTop:heightPercentageToDP(3)}]}>
+          <View style={[styles.debitInfos, {marginTop:hp(3)}]}>
               <View style={styles.debitInfoIconWrap}>
                 <InsightIcon/>
               </View>

@@ -2,7 +2,7 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
-import {StyleSheet, Dimensions} from 'react-native';
+import {StyleSheet} from 'react-native';
 import {theme, font} from '../../constants/theme';
 
 export default StyleSheet.create({
@@ -16,7 +16,6 @@ export default StyleSheet.create({
     alignSelf:'center',
   },
   hideWrap:{
-    // backgroundColor:'red',
     flexDirection:'row',
     justifyContent:'flex-end',
   },
@@ -88,7 +87,6 @@ export default StyleSheet.create({
     flexDirection:'row'
   },
   priceWrap:{
-    // backgroundColor:'yellow'
   },
   price:{
     fontFamily:font.BOLD,
@@ -103,20 +101,16 @@ export default StyleSheet.create({
     alignSelf:'center',
     flexDirection:'row',
     marginBottom:hp(2),
-    // backgroundColor:'red', 
   },
   debitInfoIconWrap:{
     flex:1,
-    // backgroundColor:'yellow'
   },
   debitInfoTextWrap:{
     flex:6,
-    // backgroundColor:'blue'
   },
   debitInfoToggleWrap:{
     
     flex:1,
-    // backgroundColor:'green'
   },
   debitInfoMainText:{
     color:theme.THEME_MAIN_TEXT,
@@ -129,7 +123,6 @@ export default StyleSheet.create({
     letterSpacing:wp(0.02)
   },
   cardLogoWrap:{
-    // backgroundColor:'red',
     height:hp(5),
     flexDirection:'row',
     justifyContent:'flex-end',
@@ -162,7 +155,6 @@ export default StyleSheet.create({
   },
   spendingWrap:{
     height:hp(10),
-    // backgroundColor:'red'
   }
 
   

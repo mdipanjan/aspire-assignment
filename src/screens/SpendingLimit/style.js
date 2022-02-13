@@ -2,12 +2,11 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
-import {StyleSheet, Dimensions} from 'react-native';
+import {StyleSheet} from 'react-native';
 import {theme, font} from '../../constants/theme';
 
 export default StyleSheet.create({
   limitInputWrap:{
-    // backgroundColor:'red',
     width:wp(88),
     alignSelf:'center'
   },

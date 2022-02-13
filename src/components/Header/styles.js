@@ -15,15 +15,12 @@ export default StyleSheet.create({
     paddingBottom:wp(5),
     flexDirection:'row',
     justifyContent:'space-between',
-    // zIndex:100000
   },
   headerleft:{
     width: wp(10),
     height:hp(4),
     flexDirection: 'column',
     justifyContent: 'center',
-    // backgroundColor:'red',
-    // zIndex:100000
   }
 });
 
